@@ -143,14 +143,7 @@ Las 10 consultas, listas para copiar y pegar, están en [`GUIA_TINKER.md`](GUIA_
 | 9 | Agregación | `HAVING`: buses con 2+ correctivos |
 | 10 | Agregación | `avg`/`count`/`sum` por taller |
 
-## 7. Cómo ejecutarlo
-Ver [`INSTALACION.md`](INSTALACION.md). Resumen:
-```powershell
-php artisan migrate:fresh --seed
-php artisan flota:alertas
-php artisan tinker
-```
-Base de datos: SQLite por defecto (`database/database.sqlite`); MySQL opcional (`.env.mysql.example`).
+
 
 ## 8. Estructura
 ```
